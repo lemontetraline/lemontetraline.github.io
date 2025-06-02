@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+body {
+    background-color: #131314;
+    margin: 0 auto;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    height: 100%;
+}
+
+#header {
+    width: 60%;
+    min-width: 350px;
+    max-width: 1250px;
+    height: 60px;
+
+    background-color: rgb(5, 5, 5);
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.03);
+    border-radius: 5px;
+
+    display: flex;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+}
+
+#container {
+    width: 60%;
+    min-width: 350px;
+    max-width: 1250px;
+
+    min-height: 100px;
+    height: auto;
+
+    background-color: rgb(5, 5, 5);
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.03);
+    border-radius: 5px;
+
+    overflow: auto;
+
+    display: flex;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+#content {
+    margin: auto;
+    text-align: center;
+    
+}
+
+li {
+    white-space: nowrap; 
+    display: inline-block;
+    padding: 1rem;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.35s;
+}
+
+li a:hover {
+    color: rgb(87, 87, 155);
+}
+
+ul {
+    top: 15px;
+    left: 50%;
+    transform: translateX(calc(-50% - 1rem));
+    position: fixed;
+    display: flex; 
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+span {
+    position: relative;
+    bottom: 10px;
+}
+
+video {
+    width: 95%;
+}
+
+#container {
+    color: white;
+}
