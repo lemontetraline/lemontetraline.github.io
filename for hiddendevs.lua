@@ -1,4 +1,4 @@
--- dates back to 2023/2024, using legacy chat system
+-- dates back to 2023/2024, using legacy chat system (and sum bad design decisions)
 -- Services --
 local ProximityPromptService = game:GetService("ProximityPromptService") -- For prompts
 local ReplciatedStorage = game:GetService("ReplicatedStorage") -- Shared storage for modules/remotes (spelled here as Replciated 🔥🔥)
@@ -779,3 +779,4 @@ PrestigeBoard.MakePrestige.InputBegan:Connect(function(Input)
 		TweenService:Create(game.Lighting.Bloom, TweenInfo.new(2), {Size = 15}):Play()
 	end
 end)
+
